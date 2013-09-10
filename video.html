@@ -1,0 +1,38 @@
+<html>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html {
+			width: 100%;
+			height: 100%;
+		}
+		#bgVideoWrap {
+			top: 0;
+			left: 0;
+			position: fixed;
+			visibility: hidden;
+		}
+		video {
+			display: block;
+		}
+	</style>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="jquery.backgroundVideo.js"></script>
+	<script>
+		$(function() {
+			$('video').backgroundVideo();
+		});
+	</script>
+
+
+	<div id="bgVideoWrap">
+		<video loop autoplay>
+			<source src="http://mediaelementjs.com/media/echo-hereweare.mp4" type="video/mp4" />
+			<source src="http://mediaelementjs.com/media/echo-hereweare.webm" type="video/webm" />
+		</video>
+	</div>
+</html>
