@@ -1,5 +1,5 @@
 ## backgroundVideo ##
-Ein Video als bildschirmfüllender Hintergrund einer Webseite. Als jQuery-Plugin.
+Video als bildschirmfüllender Hintergrund einer Webseite. Als jQuery-Plugin.
 
 
 ### Development
